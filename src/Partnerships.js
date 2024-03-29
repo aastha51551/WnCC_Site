@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import fs from './images/fs.png';
 import './Partnerships.css';
 
-const CP= () => {
+const Partnerships= () => {
   return (
     <div className="container">
       <Carousel id="demo" className="slide" interval={null}>
@@ -39,4 +39,4 @@ const CP= () => {
   );
 };
 
-export default CP;
+export default Partnerships;
